@@ -1,4 +1,4 @@
-# Calculadora Web — Proyecto JS Básico
+# Calculadora Web — Proyecto JS
 
 Este proyecto es una **calculadora web interactiva** desarrollada con **HTML, CSS y JavaScript puro**.  
 Forma parte de un ejercicio práctico para aprender manipulación del DOM, eventos, funciones y estructura modular de código en JavaScript.
