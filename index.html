@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./styles/estilos.css">
+    <script src="./scripts/script.js"></script>
+</head>
+<body>
+    <div class="calculadora">
+        <div class="fila">
+            <input type="text" id="num1" class="pantalla" placeholder="Num 1">
+            <input type="text" id="num2" class="pantalla" placeholder="Num 2">
+        </div>
+        <div class="fila">
+            <button onclick="Sumar()">+</button>
+            <button onclick="Restar()">-</button>
+            <button onclick="Multiplicar()">*</button>
+            <button onclick="Dividir()">/</button>
+        </div>
+        <div class="fila">
+            <button onclick="Raiz()">Raíz</button>
+            <button onclick="Potenciar()">Potenciar</button>
+        </div>
+        <div class="fila">
+            <div id="resultado" class="pantalla">Resultado</div>
+        </div>
+        <div class="fila">
+            <button class="accion" value = "0" onclick="Redondear(this.value)">Redondear</button>
+            <button class="accion" value = "1" onclick="Redondear(this.value)">Redondear ↑</button>
+            <button class="accion" value = "2" onclick="Redondear(this.value)">Redondear ↓</button>
+            <button class="accion" value = "3" onclick="Redondear(this.value)">Decimal</button>
+        </div>
+        <div class="fila">
+            <button class="Limpiar" onclick="Limpiar()">Limpiar</button>
+        </div>
+    </div>
+</body>
+</html>
