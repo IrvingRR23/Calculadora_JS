@@ -3,7 +3,8 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #353D69;
+    /* background: #353D69; */
+    background: linear-gradient(135deg, #242C4C, #3b4572);
     font-family: "Segoe UI", sans-serif;
     overflow-y: auto;
 }

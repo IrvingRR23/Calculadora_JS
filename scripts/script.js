@@ -51,6 +51,10 @@ function Multiplicar() {
 function Dividir() {
   let datos = obtenerDatos();
   if(!datos) return;
+  if (datos.num2 === 0){
+    datos.elementoResultado.textContent = "No se puede hacer divisiones entre 0";
+    return
+  }
   let resultado = datos.num1 / datos.num2;
   ultimoResultado = resultado;
   datos.elementoResultado.textContent = resultado;
@@ -118,5 +122,7 @@ function Redondear(tipo){
 }
 
 function Limpiar(){
-  elementoResultado = document.getElementById("resultado").textContent = "Resultado";;
+  document.getElementById("num1").value = "";
+  document.getElementById("num2").value = "";
+  document.getElementById("resultado").textContent = "Resultado";;
 }
